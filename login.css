@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-box {
+    position: relative;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.username, .password {
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    transition: all 1s ease-in;
+}
+.password {
+    border-top: 0;
+}
+.username-input, .password-input {
+    height: 28px;
+    border: none;
+}
+.password-label, .username-label {
+    position: absolute;
+}
+
+.submit-button {
+    position: absolute;
+    top: 15%;
+    right: 15px;
+}
